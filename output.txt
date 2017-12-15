@@ -1,0 +1,271 @@
+Initial Pool of PCB's are generated. 
+	Priority Queue:#PN1 #PN2 #PN0 
+	SJF Queue:#SN0 #SN1 #SN2 #SN4 #SN3 #SR0 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 
+CPU#1 is allocated PCB#PN1 BT:3
+CPU#2 is allocated PCB#PN2 BT:1
+CPU#3 is allocated PCB#PN0 BT:3
+CPU#4 is allocated PCB#SN0 BT:5
+Clock: 21
+	Priority Queue: EMPTY
+	SJF Queue:#SN1 #SN2 #SR1 #SN4 #SN3 #SR0 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 
+	All CPU's are busy with their jobs
+Clock: 22
+	Priority Queue:#PN3 
+	SJF Queue:#SN1 #SN2 #SR1 #SN4 #SN3 #SR0 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 
+	One or more CPU's are free
+	PCB#PN2 completed
+	CPU#2 is free 
+	CPU#2 is allocated PCB #PN3 BT:3
+	Deleting slot#1
+Clock: 23
+	Priority Queue: EMPTY
+	SJF Queue:#SN1 #SN2 #SR1 #SN4 #SN3 #SR0 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 
+	All CPU's are busy with their jobs
+Clock: 24
+	Priority Queue: EMPTY
+	SJF Queue:#SN1 #SN2 #SR1 #SN4 #SN3 #SR0 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 
+	One or more CPU's are free
+	PCB#PN1 completed
+	CPU#1 is free 
+	CPU#1 is allocated PCB #SN1 BT:5
+	PCB#PN0 completed
+	CPU#3 is free 
+	CPU#3 is allocated PCB #SN2 BT:5
+	Deleting slot#3
+Clock: 25
+	Priority Queue: EMPTY
+	SJF Queue:#SR1 #SN4 #SN3 #SR0 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FR5 
+	One or more CPU's are free
+	PCB#PN3 completed
+	CPU#2 is free 
+	CPU#2 is allocated PCB #SR1 BT:5
+	Deleting slot#4
+Clock: 26
+	Priority Queue: EMPTY
+	SJF Queue:#SN4 #SR2 #SN3 #SR0 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 
+	One or more CPU's are free
+	PCB#SN0 completed
+	CPU#4 is free 
+	CPU#4 is allocated PCB #SN4 BT:6
+	Deleting slot#5
+Clock: 27
+	Priority Queue: EMPTY
+	SJF Queue:#SR2 #SN3 #SR0 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FR6 
+	All CPU's are busy with their jobs
+Clock: 28
+	Priority Queue: EMPTY
+	SJF Queue:#SR2 #SN3 #SR0 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FR7 
+	All CPU's are busy with their jobs
+Clock: 29
+	Priority Queue: EMPTY
+	SJF Queue:#SR2 #SR4 #SN3 #SR0 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 
+	One or more CPU's are free
+	PCB#SN1 completed
+	CPU#1 is free 
+	CPU#1 is allocated PCB #SR2 BT:6
+	PCB#SN2 completed
+	CPU#3 is free 
+	CPU#3 is allocated PCB #SR4 BT:6
+	Deleting slot#8
+Clock: 30
+	Priority Queue: EMPTY
+	SJF Queue:#SN3 #SR0 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 
+	One or more CPU's are free
+	PCB#SR1 completed
+	CPU#2 is free 
+	CPU#2 is allocated PCB #SN3 BT:7
+	Deleting slot#9
+	Ready Queue:#SR1 
+Clock: 31
+	Priority Queue: EMPTY
+	SJF Queue:#SR0 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 
+Clock: 32
+	Priority Queue: EMPTY
+	SJF Queue:#SR5 #SR0 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	One or more CPU's are free
+	PCB#SN4 completed
+	CPU#4 is free 
+	CPU#4 is allocated PCB #SR5 BT:5
+	Deleting slot#0
+	Ready Queue:#SR1 
+Clock: 33
+	Priority Queue: EMPTY
+	SJF Queue:#SR0 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 
+Clock: 34
+	Priority Queue: EMPTY
+	SJF Queue:#SN5 #SR0 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 
+Clock: 35
+	Priority Queue: EMPTY
+	SJF Queue:#SN5 #SR0 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	One or more CPU's are free
+	PCB#SR2 completed
+	CPU#1 is free 
+	CPU#1 is allocated PCB #SN5 BT:5
+	PCB#SR4 completed
+	CPU#3 is free 
+	CPU#3 is allocated PCB #SR0 BT:7
+	Deleting slot#3
+	Ready Queue:#SR1 #SR2 #SR4 
+Clock: 36
+	Priority Queue: EMPTY
+	SJF Queue:#SN6 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 #SR2 #SR4 
+Clock: 37
+	Priority Queue: EMPTY
+	SJF Queue:#SN6 #SR3 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FR8 
+	One or more CPU's are free
+	PCB#SN3 completed
+	CPU#2 is free 
+	CPU#2 is allocated PCB #SN6 BT:6
+	PCB#SR5 completed
+	CPU#4 is free 
+	CPU#4 is allocated PCB #SR3 BT:7
+	Deleting slot#5
+	Ready Queue:#SR1 #SR4 #SR2 #SR5 
+Clock: 38
+	Priority Queue: EMPTY
+	SJF Queue:#SN7 #SR6 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 #SR4 #SR2 #SR5 
+Clock: 39
+	Priority Queue: EMPTY
+	SJF Queue:#SN7 #SR7 #SR6 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 #SR4 #SR2 #SR5 
+	Starvation detected #SR7 upgraded to #PR0
+Clock: 40
+	Priority Queue:#PR0 
+	SJF Queue:#SN7 #SR6 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	One or more CPU's are free
+	PCB#SN5 completed
+	CPU#1 is free 
+	CPU#1 is allocated PCB #PR0 BT:3
+	Deleting slot#8
+	Ready Queue:#SR1 #SR4 #SR2 #SR5 
+Clock: 41
+	Priority Queue: EMPTY
+	SJF Queue:#SN7 #SR6 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 #SR4 #SR2 #SR5 
+Clock: 42
+	Priority Queue: EMPTY
+	SJF Queue:#SN7 #SR6 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	One or more CPU's are free
+	PCB#SR0 completed
+	CPU#3 is free 
+	CPU#3 is allocated PCB #SN7 BT:5
+	Deleting slot#10
+	Ready Queue:#SR1 #SR2 #SR4 #SR5 #SR0 
+Clock: 43
+	Priority Queue: EMPTY
+	SJF Queue:#SN8 #SR6 
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	One or more CPU's are free
+	PCB#SN6 completed
+	CPU#2 is free 
+	CPU#2 is allocated PCB #SN8 BT:5
+	PCB#PR0 completed
+	CPU#1 is free 
+	CPU#1 is allocated PCB #SR6 BT:6
+	Deleting slot#0
+	Ready Queue:#SR1 #SR4 #SR2 #SR5 #SR0 #PR0 
+Clock: 44
+	Priority Queue: EMPTY
+	SJF Queue: EMPTY
+	FCFS Queue:#FN0 #FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	One or more CPU's are free
+	PCB#SR3 completed
+	CPU#4 is free 
+	CPU#4 is allocated PCB #FN0 BT:4
+	Deleting slot#1
+	Ready Queue:#SR1 #SR2 #SR4 #SR5 #SR0 #PR0 #SR3 
+Clock: 45
+	Priority Queue: EMPTY
+	SJF Queue: EMPTY
+	FCFS Queue:#FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 #SR2 #SR4 #SR5 #SR0 #PR0 #SR3 
+Clock: 46
+	Priority Queue: EMPTY
+	SJF Queue:#SR8 
+	FCFS Queue:#FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	All CPU's are busy with their jobs
+	Ready Queue:#SR1 #SR2 #SR4 #SR5 #SR0 #PR0 #SR3 
+	Starvation detected #SR8 upgraded to #PR1
+Clock: 47
+	Priority Queue:#PN4 #PR1 
+	SJF Queue: EMPTY
+	FCFS Queue:#FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	One or more CPU's are free
+	PCB#SN7 completed
+	CPU#3 is free 
+	CPU#3 is allocated PCB #PN4 BT:3
+	Deleting slot#4
+	Ready Queue:#SR1 #SR2 #SR4 #SR5 #SR0 #PR0 #SR3 
+Clock: 48
+	Priority Queue:#PR1 
+	SJF Queue: EMPTY
+	FCFS Queue:#FN1 #FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	One or more CPU's are free
+	PCB#SN8 completed
+	CPU#2 is free 
+	CPU#2 is allocated PCB #PR1 BT:1
+	PCB#FN0 completed
+	CPU#4 is free 
+	CPU#4 is allocated PCB #FN1 BT:4
+	Deleting slot#5
+	Ready Queue:#SR1 #SR2 #SR4 #SR5 #SR0 #PR0 #SR3 
+Clock: 49
+	Priority Queue: EMPTY
+	SJF Queue:#SR9 
+	FCFS Queue:#FR0 #FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	One or more CPU's are free
+	PCB#SR6 completed
+	CPU#1 is free 
+	CPU#1 is allocated PCB #SR9 BT:6
+	PCB#PR1 completed
+	CPU#2 is free 
+	CPU#2 is allocated PCB #FR0 BT:8
+	Deleting slot#6
+	PCB awake: #SR4
+	Ready Queue:#SR1 #SR2 #SR4 #SR5 #SR0 #PR0 #SR3 #PR1 #SR6 
+Clock: 50
+	Priority Queue:#PN5 
+	SJF Queue:#SR4 
+	FCFS Queue:#FR1 #FN2 #FN3 #FR2 #FR3 #FN4 #FN5 #FR4 #FN6 #FN7 #FN8 
+	One or more CPU's are free
+	PCB#PN4 completed
+	CPU#3 is free 
+	CPU#3 is allocated PCB #PN5 BT:1
+	Deleting slot#7
+	Ready Queue:#SR1 #SR2 #SR4 #SR5 #SR0 #PR0 #SR3 #PR1 #SR6 
